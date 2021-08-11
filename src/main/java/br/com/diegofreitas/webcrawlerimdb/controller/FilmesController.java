@@ -2,7 +2,6 @@ package br.com.diegofreitas.webcrawlerimdb.controller;
 
 
 import br.com.diegofreitas.webcrawlerimdb.entity.Filme;
-import br.com.diegofreitas.webcrawlerimdb.exeption.FilmesNotFoundExeption;
 import br.com.diegofreitas.webcrawlerimdb.service.FilmeCrawlerJsoupService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
