@@ -15,24 +15,8 @@ import java.util.List;
 @Service
 public class FilmeCrawlerJsoupService {
 
-
-//    public static void main(String[] args) throws IOException {
-//
-//        List<Filme> pioresFilmes = listaComOsDezPioresFilmes();
-//        for (Filme filme: pioresFilmes ){
-//            System.out.println("Código IMDb: "+filme.getIdentificadorIMDb());
-//            System.out.println("Nota do Filme: "+filme.getNotaDoFilme());
-//            System.out.println("Diretor(es): "+filme.getNomeDiretores());
-//            System.out.println("Elenco: "+filme.getElencoPrincipal());
-//            System.out.println("Comentarios: "+filme.getComentariosPositivos());
-//
-//            System.out.println("********************************");
-//        }
-//
-//    }
-
-
     public List<Filme> listaComOsDezPioresFilmes() throws IOException {
+
         AtorCrawlerJsoupService atorCrawlerJsoupService = new AtorCrawlerJsoupService();
         ComentarioCrawlerJsoupService comentarioCrawlerJsoupService = new ComentarioCrawlerJsoupService();
 
